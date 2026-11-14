@@ -1,0 +1,6 @@
+# Deliberately malformed job file for error-handling tests
+1   0   5   2
+2   x   3   1        # non-numeric arrival
+3   2   0   1        # zero burst is invalid
+1   4   2   2        # duplicate job id
+4   5   2            # missing priority field

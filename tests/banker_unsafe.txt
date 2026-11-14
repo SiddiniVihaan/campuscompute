@@ -1,0 +1,18 @@
+# Banker's algorithm - UNSAFE state
+# Same Maximum/Allocation as the safe case, but fewer resources Available.
+# P3 and P1 can finish, after which P0, P2 and P4 are stuck.
+5 3
+# Available
+0 1 1
+# Maximum
+7 5 3
+3 2 2
+9 0 2
+2 2 2
+4 3 3
+# Allocation
+0 1 0
+2 0 0
+3 0 2
+2 1 1
+0 0 2
